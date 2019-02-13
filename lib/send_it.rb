@@ -1,6 +1,7 @@
-require "send_it/version"
+require 'pry'
 
-module SendIt
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "send_it/version"
+require_relative "send_it/cli"
+require_relative "send_it/person"
+
+
